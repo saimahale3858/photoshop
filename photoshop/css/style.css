@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+.hero{
+	padding: 0px 315px;
+}
+.robot-font{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	padding-right: 20px;
+}
+.robot-font-sm{
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+}
+
+.Myriad-font{
+	font-family: 'Myriad Pro', serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #90b8c0;
+}
+.Myriad-font-sm{
+	font-family: 'Myriad Pro', serif;
+	font-size: 12px;
+	line-height: 1.5;
+}
+.bi{
+	color:grey;
+
+}
+.bi:hover{
+	color:#c77329;
+}
+/*-----------------------------------------------------------------------*/
+	
+.hero{
+	background-image: url("../img/bg-11.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #fff7f0;
+	
+
+}
+.hero .hero-content{
+	position: relative;
+	padding-top:175px;
+	 padding-bottom:67px;
+	color: white;
+	width: 60%;
+}
+#toggle{
+	position:absolute;
+	right: 70px;
+	top: 40px;
+	font-size:25px;
+	 color: white;
+}
+/*-------------------------------------------------------------------------*/
+
+
+.services{
+	padding: 30px;
+	background-color: #fff7f0;
+}
+.services .wraper {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+ .services .card {
+    display: inline-block;
+    padding: 10px 20px;
+    margin:0px 15px;
+  }
+ .services .row .col-lg-10 .card h4{
+ 	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #c77329;
+	text-align: center;
+ }
+
+ .services .row .col-lg-10 .card h6{
+ 	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #c77329;
+	text-align: center;
+
+ }
+.services .row .col-lg-10 .card:hover> h6 ,.services .row .col-lg-10 .card:hover> h4,.services .row .col-lg-10 .card:hover{
+	background-color: #c77329;
+	color: white;
+
+}
+/*---------------------------------------------------------------------*/
+
+
+.solution{
+	padding: 0px 315px;
+}
+.solution .heading-lg{
+font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	color: #90b8c0;
+	text-align: center;	
+}
+/*---------------------------------------------------------------------*/
+
+
+
+.section-3{
+	background-color: #ecf3f4;
+}
+
+.section-3 .content{
+	padding: 0px 315px;
+}
+
+/*---------------------------------------------------------------------*/
+
+
+
+footer{
+	background-color: #041e54;
+}
+footer .content{
+	padding: 0px 315px;
+
+}
+footer .content .row .col-lg-3 ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+footer .content .row .col-lg-3 ul li b{
+	color: white;
+}
+footer .content .row .col-lg-3 ul li{
+	color:#8a9ec9;
+	font-family: 'Myriad Pro', serif;
+	font-size: 15px;
+}
+footer .content .bottom-footer p{
+color:#8a9ec9;
+	font-family: 'Myriad Pro', serif;
+	font-size: 12px;
+	float: left;
+}
+
+footer .content .bottom-footer ul{
+color:#8a9ec9;
+	display: flex;
+	list-style: none;
+	float: right;
+}
+footer .content .bottom-footer ul li a{
+	padding:7px;
+	margin-right: 5px;
+	color:white;
+	background-color: #1c3873;	
+	font-size: 12px;
+}
+
+footer .content .bottom-footer ul li a:hover{
+	background-color: #e18b40;	
+	color: white;
+}
+
+/*-------------------------------------------------------------*/
+.top{
+	background-image: url("../img/bg-1.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #fff7f0;
+}
+.top .navbar{
+	padding: 20px 20px;
+}
+.top .top-content{
+	padding: 50px 315px 0px 315px;
+}
+.top .top-content p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: white;
+	text-align: left;
+}
+.top .top-content .row .col-xl-4 p{
+	font-family: 'Myriad Pro', serif;
+	font-size: 12px;
+	line-height: 1.5;
+	text-align: left;
+	color: #90b8c0;
+}
+
+/*----------------------------------------------------------------*/
+
+.middle-content,.news{
+padding: 50px 315px;
+}
+.news{
+	background-color: #ecf3f4;
+}
+
+.news .row .col-xl-4 p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	text-align: left;
+	color: #c77329;
+}
+
+.news .row .col-xl-4 ul{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.news .row .col-xl-4 ul li{
+font-family: 'Myriad Pro', serif;
+	font-size: 12px;
+	
+}
+.news button{
+	float: right;
+	border: 1px solid #c77329;
+	border-radius: 25px;
+}
+.news button:hover{
+	float: right;
+	border: 1px solid #c77329;
+	background-color: #c77329;
+	color: white;
+	border-radius: 25px;
+}
